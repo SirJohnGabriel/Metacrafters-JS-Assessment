@@ -29,7 +29,7 @@ function mintNFT (_name, _eyeColor, _shirtType, _bling) {
 // and print their metadata with console.log()
 function listNFTs () {
     for (i = 0; i < NFTs.length; i++){
-        console.log('NFT %d Description\nName:\t\t\t\t%s\nEye Color:\t%s\nShirt Type:\t%s\nBling:\t\t\t%s', i+1, NFTs[i].name, NFTs[i].eyeColor, NFTs[i].shirtType, NFTs[i].bling + '\n')
+        console.log('NFT %d Description\nName:\t\t\t\t%s\nEye Color:\t%s\nShirt Type:\t%s\nBling:\t\t\t%s', i+1, NFTs[i].name, NFTs[i].eyeColor, NFTs[i].shirtType, NFTs[i].bling + '\n');
     }
 }
 
